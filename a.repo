@@ -1,0 +1,13 @@
+[ansible-tower]
+name=ansible-tower
+baseurl=file:///opt/ansible-tower-setup-bundle-3.7.1-1/bundle/el7/repos/ansible-tower/
+gpgcheck=0
+enabled=1
+
+
+[ansible-tower-dependencies]
+name=ansible-tower-dependencies
+baseurl=file:///opt/ansible-tower-setup-bundle-3.7.1-1/bundle/el7/repos/ansible-tower-dependencies/
+gpgcheck=0
+enabled=1
+
